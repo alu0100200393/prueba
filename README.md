@@ -31,6 +31,7 @@ Se llama al plugin gh-pages y se hace un recorrido en profundida (/**/*) para co
 >   return gulp.src('./gh-pages/**/*')  
 >   .pipe(ghPages());  
 > });  
+
 Tarea que se utiliza para construir el libro por media de línea de comandos con los comandos de boilerplate (# npm run generate-gitbook && npm run generate-wiki)  
 
 > gulp.task('build',shell.task([  
