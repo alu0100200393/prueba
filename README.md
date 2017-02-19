@@ -22,8 +22,10 @@ Dependencia para llamar a gulp
 
 > var gulp = require("gulp");  
 
-Dependencia para llamar al método shell   
+Dependencia para llamar al método shell  
+
 > var shell = require('gulp-shell');  
+
 Dependencia para llamar al plugin ghpages  
 
 > var ghPages = require('gulp-gh-pages');  
