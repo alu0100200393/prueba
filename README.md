@@ -17,12 +17,12 @@ Donde task es un ejemplo de método que puede ser utilizado.
 # DESCRIPCION FICHERO GULPFILE
 
 *	Dependencia  
-Dependencia para llamar a gulp
+Dependencia para llamar a gulp  
 > var gulp = require("gulp");
-Dependencia para llamar al método shell
-> var shell = require('gulp-shell');
-Dependencia para llamar al plugin ghpages
-> var ghPages = require('gulp-gh-pages');
+Dependencia para llamar al método shell  
+> var shell = require('gulp-shell');  
+Dependencia para llamar al plugin ghpages  
+> var ghPages = require('gulp-gh-pages');  
 
 *	Tareas  
 Se llama al plugin gh-pages y se hace un recorrido en profundida (/**/*) para construir las gh-pages (simplifica el proceso de despliegue de gh-pages) es decir  Todos los archivos y directorios dentro de / gh-pages  serán enviados a la rama gh-pages aunque podría ser cambiada a master  
