@@ -5,7 +5,7 @@ El fichero gulpfile se divide en dos partes bien diferenciadas
 Un ejemplo de dependencia puede ser:
 var gulp = require('gulp');
 
-* tareas: Aquí pondremos cada tarea la cual tendrá una estructura común.
+* Tareas: Aquí pondremos cada tarea la cual tendrá una estructura común.
 
 gulp.task('nombre de la tarea', function() {
   // código de la tarea por defecto
@@ -16,7 +16,7 @@ Donde task es un ejemplo de método que puede ser utilizado.
 
 # DESCRIPCION FICHERO GULPFILE
 
-*	dependencia  
+*	Dependencia  
 Dependencia para llamar a gulp
 var gulp = require("gulp");
 Dependencia para llamar al método shell
@@ -42,8 +42,7 @@ Tarea que se utiliza para desplegar el libro por media de línea de comandos con
 
 gulp.task('deploy',shell.task([
    'npm run deploy'
-   
-]));
+ ]));
 
 Tarea que se utiliza para montar el servidor de prueba del libro  por media de línea de comandos  
 gulp.task('serve',shell.task([
